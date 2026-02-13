@@ -31,14 +31,14 @@ export default async function HomePage({ params }: Props) {
   return (
     <div>
       {/* Hero Section — Video Background */}
-      <section className="relative h-screen w-full overflow-hidden">
+      <section className="relative h-screen w-full overflow-hidden bg-white">
         <AnimateFadeIn className="absolute inset-0">
           <video
             autoPlay
             muted
             loop
             playsInline
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover bg-white"
           >
             <source
               src="/images/Phoenix Massage_720_compressed.mp4"
@@ -68,9 +68,16 @@ export default async function HomePage({ params }: Props) {
               {t("hero.callHint")}
             </p>
           </AnimateHeroItem>
-          <AnimateHeroItem className="mt-4">
+          <AnimateHeroItem className="mt-4 flex flex-wrap items-center justify-center gap-3">
             <CtaButton href="tel:+31687349250" variant="primary">
               {t("hero.callButton")}
+            </CtaButton>
+            <CtaButton
+              href="https://wa.me/31687349250"
+              variant="secondary"
+              className="!bg-white/20 !text-white hover:!bg-white/30"
+            >
+              {t("hero.whatsapp")}
             </CtaButton>
           </AnimateHeroItem>
         </AnimateHero>
@@ -245,9 +252,12 @@ export default async function HomePage({ params }: Props) {
               <p className="mt-4 text-lg text-white/90">{t("cta.subtitle")}</p>
             </AnimateStaggerItem>
             <AnimateStaggerItem>
-              <div className="mt-8">
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
                 <CtaButton href="tel:+31687349250" variant="secondary">
                   {t("cta.callButton")}
+                </CtaButton>
+                <CtaButton href="https://wa.me/31687349250" variant="secondary">
+                  {t("cta.whatsapp")}
                 </CtaButton>
               </div>
             </AnimateStaggerItem>

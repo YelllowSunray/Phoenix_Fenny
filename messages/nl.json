@@ -16,6 +16,7 @@
     "cta": "Maak een afspraak",
     "callHint": "Bel voor een afspraak",
     "callButton": "06 8734 9250",
+    "whatsapp": "WhatsApp",
     "scrollLabel": "Scroll naar beneden"
   },
   "healing": {
@@ -59,6 +60,7 @@
     "title": "Boek nu",
     "callTitle": "Bel voor een afspraak:",
     "phone": "06 8734 9250",
+    "whatsapp": "WhatsApp",
     "imageAlt": "Phoenix Health & Wellness lobby"
   },
   "contactPage": {
@@ -76,6 +78,7 @@
     "locationTitle": "Locatie",
     "viewOnMap": "Bekijk op Google Maps",
     "phoneLabel": "Telefoon",
+    "whatsapp": "WhatsApp",
     "mapTitle": "Kaart van Phoenix Health & Wellness"
   },
   "reviews": {
@@ -118,6 +121,7 @@
     "title": "Klaar om vernieuwd te worden?",
     "subtitle": "Maak een afspraak door te bellen.",
     "callButton": "Bel 06 8734 9250",
+    "whatsapp": "WhatsApp",
     "phone": "06 8734 9250"
   }
 }

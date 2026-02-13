@@ -63,13 +63,22 @@ export default async function BookPage({ params }: Props) {
               >
                 {t("callTitle")}
               </p>
-              <CtaButton
-                href="tel:+31687349250"
-                variant="primary"
-                className="shadow-xl"
-              >
-                {t("phone")}
-              </CtaButton>
+              <div className="flex flex-wrap items-center justify-center gap-3">
+                <CtaButton
+                  href="tel:+31687349250"
+                  variant="primary"
+                  className="shadow-xl"
+                >
+                  {t("phone")}
+                </CtaButton>
+                <CtaButton
+                  href="https://wa.me/31687349250"
+                  variant="secondary"
+                  className="shadow-xl !bg-white/20 !text-white hover:!bg-white/30"
+                >
+                  {t("whatsapp")}
+                </CtaButton>
+              </div>
             </div>
           </div>
         </AnimateSection>

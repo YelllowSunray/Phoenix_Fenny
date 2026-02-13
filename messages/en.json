@@ -16,6 +16,7 @@
     "cta": "Book an Appointment",
     "callHint": "Call to make an appointment",
     "callButton": "06 8734 9250",
+    "whatsapp": "WhatsApp",
     "scrollLabel": "Scroll down"
   },
   "healing": {
@@ -59,6 +60,7 @@
     "title": "Book Now",
     "callTitle": "Call for an appointment:",
     "phone": "06 8734 9250",
+    "whatsapp": "WhatsApp",
     "imageAlt": "Phoenix Health & Wellness lobby"
   },
   "contactPage": {
@@ -76,6 +78,7 @@
     "locationTitle": "Location",
     "viewOnMap": "View on Google Maps",
     "phoneLabel": "Phone",
+    "whatsapp": "WhatsApp",
     "mapTitle": "Map of Phoenix Health & Wellness"
   },
   "reviews": {
@@ -118,6 +121,7 @@
     "title": "Ready to Feel Renewed?",
     "subtitle": "Book your session by calling us.",
     "callButton": "Call 06 8734 9250",
+    "whatsapp": "WhatsApp",
     "phone": "06 8734 9250"
   }
 }

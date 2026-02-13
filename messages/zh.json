@@ -16,6 +16,7 @@
     "cta": "预约按摩",
     "callHint": "预约请致电",
     "callButton": "06 8734 9250",
+    "whatsapp": "WhatsApp",
     "scrollLabel": "向下滚动"
   },
   "healing": {
@@ -59,6 +60,7 @@
     "title": "立即预约",
     "callTitle": "预约请致电：",
     "phone": "06 8734 9250",
+    "whatsapp": "WhatsApp",
     "imageAlt": "Phoenix Health & Wellness 大厅"
   },
   "contactPage": {
@@ -76,6 +78,7 @@
     "locationTitle": "地址",
     "viewOnMap": "在 Google 地图上查看",
     "phoneLabel": "电话",
+    "whatsapp": "WhatsApp",
     "mapTitle": "Phoenix Health & Wellness 地图"
   },
   "reviews": {
@@ -118,6 +121,7 @@
     "title": "准备好焕然一新了吗？",
     "subtitle": "请致电预约。",
     "callButton": "拨打 06 8734 9250",
+    "whatsapp": "WhatsApp",
     "phone": "06 8734 9250"
   }
 }
