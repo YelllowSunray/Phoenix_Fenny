@@ -19,9 +19,56 @@ const trajanPro = localFont({
   display: "swap",
 });
 
+const SITE_URL = "https://phoenix-fenny.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Phoenix Health & Wellness",
-  description: "Professional massage therapy and wellness services",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Phoenix Health & Wellness | Massage Hilversum",
+    template: "%s | Phoenix Health & Wellness",
+  },
+  description:
+    "Professionele massage en wellness in Hilversum. Ontspan, herstel en herleef. Bel 06 8734 9250 voor een afspraak. Open ma-vr 11:00–22:00.",
+  keywords: [
+    "massage Hilversum",
+    "wellness Hilversum",
+    "Phoenix Health & Wellness",
+    "massage therapie",
+    "ontspanningsmassage",
+    "acupunctuur Hilversum",
+    "cupping",
+  ],
+  authors: [{ name: "Phoenix Health & Wellness" }],
+  creator: "Phoenix Health & Wellness",
+  openGraph: {
+    type: "website",
+    locale: "nl_NL",
+    url: SITE_URL,
+    siteName: "Phoenix Health & Wellness",
+    title: "Phoenix Health & Wellness | Massage Hilversum",
+    description:
+      "Professionele massage en wellness in Hilversum. Ontspan, herstel en herleef. Bel voor een afspraak.",
+    images: [
+      {
+        url: "/images/pictures/massagephoto.jpg",
+        width: 420,
+        height: 560,
+        alt: "Phoenix Health & Wellness massage",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Phoenix Health & Wellness | Massage Hilversum",
+    description: "Professionele massage en wellness in Hilversum. Bel voor een afspraak.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: SITE_URL,
+  },
 };
 
 export default function RootLayout({
