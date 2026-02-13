@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Phoenix Health & Wellness",
-    "tagline": "Kom moe. Vertrek vernieuwd. Herrijzen als de feniks.",
+    "tagline": "Kom moe. Vertrek vernieuwd. Herrijzen als de phoenix.",
     "cta": "Maak een afspraak",
     "callHint": "Bel voor een afspraak",
     "callButton": "06 8734 9250",
@@ -36,7 +36,7 @@
   },
   "phoenix": {
     "title": "Waarom \"Phoenix\"?",
-    "p1": "De feniks staat voor wederopstanding en wedergeboorte — oprijzen uit de as, getransformeerd en vernieuwd. Dat is precies wat ik wil voor elke cliënt die bij mij binnenkomt: moe binnenkomen en herboren weggaan.",
+    "p1": "De phoenix staat voor wederopstanding en wedergeboorte — oprijzen uit de as, getransformeerd en vernieuwd. Dat is precies wat ik wil voor elke cliënt die bij mij binnenkomt: moe binnenkomen en herboren weggaan.",
     "p2": "Daarom noemde ik deze plek Phoenix."
   },
   "servicesPage": {
@@ -72,6 +72,7 @@
     "friday": "Vrijdag",
     "saturday": "Zaterdag",
     "sunday": "Zondag",
+    "closedOnHolidays": "Gesloten op feestdagen",
     "locationTitle": "Locatie",
     "viewOnMap": "Bekijk op Google Maps",
     "phoneLabel": "Telefoon",

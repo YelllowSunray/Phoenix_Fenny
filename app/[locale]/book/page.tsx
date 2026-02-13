@@ -98,6 +98,9 @@ export default async function BookPage({ params }: Props) {
                 </li>
               ))}
             </ul>
+            <p className="mt-4 text-sm text-stone-500" style={serif}>
+              {tContact("closedOnHolidays")}
+            </p>
           </div>
         </AnimateSection>
       </section>

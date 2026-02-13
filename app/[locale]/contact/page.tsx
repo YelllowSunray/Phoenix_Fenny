@@ -84,6 +84,9 @@ export default async function ContactPage({ params }: Props) {
                   </li>
                 ))}
               </ul>
+              <p className="mt-4 text-sm text-stone-500" style={serif}>
+                {t("closedOnHolidays")}
+              </p>
             </div>
             <div className="p-6 md:w-[55%] md:p-8">
               <p
