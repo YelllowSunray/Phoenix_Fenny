@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "about": "Over",
+    "contact": "Contact",
+    "bookNow": "Boek nu"
+  },
+  "phoneButton": {
+    "toMakeAppointment": "Voor een afspraak bel:",
+    "number": "06 8734 9250"
+  },
+  "hero": {
+    "title": "Phoenix Health & Wellness",
+    "tagline": "Kom moe. Vertrek vernieuwd. Herrijzen als de feniks.",
+    "cta": "Maak een afspraak",
+    "callHint": "Bel voor een afspraak",
+    "callButton": "06 8734 9250",
+    "scrollLabel": "Scroll naar beneden"
+  },
+  "healing": {
+    "title": "Een helende aanraking",
+    "p1": "Wanneer mijn handen de rug van een cliënt aanraken, zoek ik eerst gespannen spieren of knopen. Ik volg geen vaste techniek — in plaats daarvan communiceer ik met het lichaam via mijn zintuigen om te begrijpen wat elke cliënt echt nodig heeft.",
+    "p2": "Eerst werk ik om spanning los te laten en de knopen op te lossen. Daarna ga ik dieper — met intuïtie en aanraking om de geest tot rust te brengen en balans te herstellen in het hele lichaam."
+  },
+  "proverb": {
+    "quote": "Waar vrije doorstroming is, is geen pijn. Waar pijn is, is geen vrije doorstroming.",
+    "label": "— Chinees spreekwoord",
+    "body": "Pijn is niet de vijand — het is een signaal. Het vertelt ons dat iets in het lichaam aandacht nodig heeft. Wanneer cliënten binnenkomen met zwaarte en ongemak, is mijn hoop eenvoudig: dat ze weggaan met een lichter, verfrist en echt opgewekt gevoel."
+  },
+  "story": {
+    "title": "Mijn verhaal",
+    "p1": "Mijn reis in massage begon lang vóór enige formele opleiding. Als kind keek ik naar mijn grootmoeder — een vroedvrouw — die zwangere vrouwen met zorg en vertrouwen masseerde. Zij was mijn eerste mentor. Later leerde mijn peetvader mij het vak van cupping en acupunctuur, wat mijn band met traditionele genezing verdiepte.",
+    "p2": "Om mijn vaardigheden uit te breiden, schreef ik me in op een gespecialiseerde massageschool en volgde later training aan een academie in Utrecht, waar ik Zweedse massage leerde. Toen ik voor het eerst uit China kwam, was ik onder de indruk van de vriendelijkheid van de Nederlanders — hun geduld om iemand die haar weg zocht in een nieuw land te onderwijzen.",
+    "p3": "Die ervaringen hebben gevormd wie ik vandaag ben: een therapeut die Oosterse intuïtie combineert met Westerse techniek, altijd geleid door wat het lichaam vraagt."
+  },
+  "phoenix": {
+    "title": "Waarom \"Phoenix\"?",
+    "p1": "De feniks staat voor wederopstanding en wedergeboorte — oprijzen uit de as, getransformeerd en vernieuwd. Dat is precies wat ik wil voor elke cliënt die bij mij binnenkomt: moe binnenkomen en herboren weggaan.",
+    "p2": "Daarom noemde ik deze plek Phoenix."
+  },
+  "servicesPage": {
+    "title": "Diensten & prijzen",
+    "sectionMassage": "Massage",
+    "sectionTreatment": "Behandeling",
+    "columnService": "Behandeling",
+    "columnMinutes": "Aantal minuten",
+    "columnPrice": "Prijs",
+    "fullBody": "Heel lichaam",
+    "back": "Rug",
+    "feet": "Voeten",
+    "acupuncture": "Acupunctuur",
+    "hotstone": "Hotstone",
+    "moxa": "Moxibusstie / Moxa therapie",
+    "cupping": "Cupping",
+    "pedicure": "Pedicure"
+  },
+  "bookPage": {
+    "title": "Boek nu",
+    "callTitle": "Bel voor een afspraak:",
+    "phone": "06 8734 9250",
+    "imageAlt": "Phoenix Health & Wellness lobby"
+  },
+  "contactPage": {
+    "title": "Contact",
+    "openingHoursTitle": "Openingstijden",
+    "hours": "11:00 – 22:00",
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "saturday": "Zaterdag",
+    "sunday": "Zondag",
+    "locationTitle": "Locatie",
+    "viewOnMap": "Bekijk op Google Maps",
+    "phoneLabel": "Telefoon",
+    "mapTitle": "Kaart van Phoenix Health & Wellness"
+  },
+  "reviews": {
+    "title": "Google Reviews",
+    "item0Name": "mika yareck",
+    "item0Date": "3 maanden geleden",
+    "item0Text": "Vandaag een duo massage gehad. Beide massages waren heerlijk! Knopen werden goed aangepakt en de massage was goed afgestemd. Echt een aanrader! Bedankt Lina en Omi:)",
+    "item1Name": "Wim van den Bold",
+    "item1Date": "een jaar geleden",
+    "item1Text": "Geweldige massage, ze lezen inderdaad je lichaam, je spieren en stemmen dan de massage er op af, de zaak is niet nieuw, maar het ontbreekt aan niets.",
+    "item2Name": "Hans Pluim",
+    "item2Date": "een jaar geleden",
+    "item2Text": "Met hevige rugpijn naar Phoenix gegaan. Ze hadden al eerder mij van pijnlijke spieren in mijn been afgeholpen, dus ik hoopte dat ze mij ook dit keer konden helpen.",
+    "item3Name": "Ben Evers",
+    "item3Date": "8 maanden geleden",
+    "item3Text": "Phoenix is echt een heel goede massage salon! Mensen zijn prettig in de omgang en kunnen fantastisch masseren.",
+    "item4Name": "Duncan van der Zalm",
+    "item4Date": "4 jaar geleden",
+    "item4Text": "Een stukje hemel op aarde. Veel meer dan alleen massage.",
+    "item5Name": "Eva Assink",
+    "item5Date": "een jaar geleden",
+    "item5Text": "Waanzinnig goede massages die nog lang doorwerken! Van harte aanbevolen!",
+    "item6Name": "A van",
+    "item6Date": "4 jaar geleden",
+    "item6Text": "Vandaag weer een heerlijke massage gehad, de beste massage salon ooit!!",
+    "item7Name": "Amani Vanbercum",
+    "item7Date": "6 jaar geleden",
+    "item7Text": "Beste massage ooit !!!! Nog nooit zo goed gemasseerd.",
+    "item8Name": "Anja Van Ouwerkerk",
+    "item8Date": "4 jaar geleden",
+    "item8Text": "Fantastische massage en superlieve mensen.. !!!",
+    "item9Name": "Annemarie Lieste",
+    "item9Date": "3 jaar geleden",
+    "item9Text": "Geweldig! Ze lezen je lijf... heerlijk.",
+    "item10Name": "jip nipius",
+    "item10Date": "3 jaar geleden",
+    "item10Text": "Dank je wel Fanny. Super!"
+  },
+  "cta": {
+    "title": "Klaar om vernieuwd te worden?",
+    "subtitle": "Maak een afspraak door te bellen.",
+    "callButton": "Bel 06 8734 9250",
+    "phone": "06 8734 9250"
+  }
+}

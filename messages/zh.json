@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "about": "关于",
+    "contact": "联系",
+    "bookNow": "立即预约"
+  },
+  "phoneButton": {
+    "toMakeAppointment": "预约请致电：",
+    "number": "06 8734 9250"
+  },
+  "hero": {
+    "title": "Phoenix Health & Wellness",
+    "tagline": "疲惫而来，焕然一新。如凤凰涅槃。",
+    "cta": "预约按摩",
+    "callHint": "预约请致电",
+    "callButton": "06 8734 9250",
+    "scrollLabel": "向下滚动"
+  },
+  "healing": {
+    "title": "疗愈之手",
+    "p1": "当我的手触碰到客人的背部时，我首先会寻找紧张的肌肉或结节。我不拘泥于单一手法——而是通过感官与身体沟通，了解每位客人真正需要什么。",
+    "p2": "首先，我帮助释放紧张、化解结节。然后深入——用直觉与触觉让心神安宁，让全身恢复平衡。"
+  },
+  "proverb": {
+    "quote": "通则不痛，痛则不通。",
+    "label": "— 中国谚语",
+    "body": "痛不是敌人——它是信号，告诉我们身体某处需要关注。当客人带着沉重与不适而来，我的愿望很简单：让他们离开时感到轻松、焕新、充满活力。"
+  },
+  "story": {
+    "title": "我的故事",
+    "p1": "我的按摩之路早在任何正式培训之前就开始了。小时候，我看着祖母——一位助产士——以细心与自信为孕妇按摩。她是我的第一位导师。后来，我的教父传授我拔罐与针灸，加深了我与传统疗愈的连结。",
+    "p2": "为了精进技艺，我进入专业按摩学校，后来在乌得勒支的学院学习瑞典式按摩。当我初从中国来到荷兰时，荷兰人的友善让我印象深刻——他们耐心地教导一个仍在异国寻找方向的人。",
+    "p3": "这些经历塑造了今天的我：一位融合东方直觉与西方手法的治疗师，始终听从身体的指引。"
+  },
+  "phoenix": {
+    "title": "为什么叫「凤凰」？",
+    "p1": "凤凰象征复活与重生——从灰烬中崛起，蜕变与更新。这正是我对每一位推门而入的客人的祝愿：疲惫而来，焕然重生而去。",
+    "p2": "所以我将这里命名为凤凰。"
+  },
+  "servicesPage": {
+    "title": "服务与价格",
+    "sectionMassage": "按摩",
+    "sectionTreatment": "疗程",
+    "columnService": "项目",
+    "columnMinutes": "分钟",
+    "columnPrice": "价格",
+    "fullBody": "全身",
+    "back": "背部",
+    "feet": "足部",
+    "acupuncture": "针灸",
+    "hotstone": "热石",
+    "moxa": "艾灸疗法",
+    "cupping": "拔罐",
+    "pedicure": "足部护理"
+  },
+  "bookPage": {
+    "title": "立即预约",
+    "callTitle": "预约请致电：",
+    "phone": "06 8734 9250",
+    "imageAlt": "Phoenix Health & Wellness 大厅"
+  },
+  "contactPage": {
+    "title": "联系",
+    "openingHoursTitle": "营业时间",
+    "hours": "11:00 – 22:00",
+    "monday": "周一",
+    "tuesday": "周二",
+    "wednesday": "周三",
+    "thursday": "周四",
+    "friday": "周五",
+    "saturday": "周六",
+    "sunday": "周日",
+    "locationTitle": "地址",
+    "viewOnMap": "在 Google 地图上查看",
+    "phoneLabel": "电话",
+    "mapTitle": "Phoenix Health & Wellness 地图"
+  },
+  "reviews": {
+    "title": "Google 评价",
+    "item0Name": "mika yareck",
+    "item0Date": "3 个月前",
+    "item0Text": "今天做了双人按摩。两次按摩都很舒服！结节处理得很好，按摩也很到位。非常推荐！谢谢 Lina 和 Omi:)",
+    "item1Name": "Wim van den Bold",
+    "item1Date": "1 年前",
+    "item1Text": "按摩很棒，他们真的会读懂你的身体和肌肉，然后据此调整按摩。店不是新的，但该有的都有。",
+    "item2Name": "Hans Pluim",
+    "item2Date": "1 年前",
+    "item2Text": "背痛得很厉害时去了 Phoenix。他们之前帮我缓解过腿上的肌肉疼痛，所以希望这次也能帮到我。",
+    "item3Name": "Ben Evers",
+    "item3Date": "8 个月前",
+    "item3Text": "Phoenix 是一家非常棒的按摩店！人很和气，按摩技术一流。",
+    "item4Name": "Duncan van der Zalm",
+    "item4Date": "4 年前",
+    "item4Text": "人间天堂。远不止是按摩。",
+    "item5Name": "Eva Assink",
+    "item5Date": "1 年前",
+    "item5Text": "按摩效果非常好，余韵持久！强烈推荐！",
+    "item6Name": "A van",
+    "item6Date": "4 年前",
+    "item6Text": "今天又做了一次很棒的按摩，至今遇到过最好的按摩店！！",
+    "item7Name": "Amani Vanbercum",
+    "item7Date": "6 年前",
+    "item7Text": "做过最棒的一次按摩！！！！从没被按得这么舒服过。",
+    "item8Name": "Anja Van Ouwerkerk",
+    "item8Date": "4 年前",
+    "item8Text": "按摩很棒，人也特别亲切！！",
+    "item9Name": "Annemarie Lieste",
+    "item9Date": "3 年前",
+    "item9Text": "太棒了！他们能读懂你的身体……非常舒服。",
+    "item10Name": "jip nipius",
+    "item10Date": "3 年前",
+    "item10Text": "谢谢 Fanny。很棒！"
+  },
+  "cta": {
+    "title": "准备好焕然一新了吗？",
+    "subtitle": "请致电预约。",
+    "callButton": "拨打 06 8734 9250",
+    "phone": "06 8734 9250"
+  }
+}

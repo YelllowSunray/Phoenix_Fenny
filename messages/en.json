@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "phoneButton": {
+    "toMakeAppointment": "To make an appointment: Call:",
+    "number": "06 8734 9250"
+  },
+  "hero": {
+    "title": "Phoenix Health & Wellness",
+    "tagline": "Arrive tired. Leave renewed. Rise like the Phoenix.",
+    "cta": "Book an Appointment",
+    "callHint": "Call to make an appointment",
+    "callButton": "06 8734 9250",
+    "scrollLabel": "Scroll down"
+  },
+  "healing": {
+    "title": "A Healing Touch",
+    "p1": "When my hands touch a client's back, I first locate any tense muscles or knots. I don't follow a single technique — instead, I communicate with the body through my senses to understand what each client truly needs.",
+    "p2": "First, I work to release tension and dissolve the knots. Then, I go deeper — using intuition and touch to quiet the mind and restore balance to the whole body."
+  },
+  "proverb": {
+    "quote": "Where there is free flow, there is no pain. Where there is pain, there is no free flow.",
+    "label": "— Chinese Proverb",
+    "body": "Pain is not the enemy — it's a signal. It tells us something in the body needs attention. When clients come in carrying heaviness and discomfort, my hope is simple: that they leave feeling lighter, refreshed, and truly invigorated."
+  },
+  "story": {
+    "title": "My Story",
+    "p1": "My journey into massage began long before any formal training. As a child, I watched my grandmother — a midwife — massage pregnant women with care and confidence. She was my first mentor. Later, my godfather taught me the art of cupping and acupuncture, deepening my connection to traditional healing.",
+    "p2": "Wanting to expand my skills, I enrolled in a specialized massage school and later trained at an academy in Utrecht, where I studied Swedish massage techniques. When I first arrived from China, I was struck by the kindness of the Dutch — their patience in teaching someone still finding her way in a new country.",
+    "p3": "Those experiences shaped who I am today: a therapist who blends Eastern intuition with Western technique, guided always by what the body asks for."
+  },
+  "phoenix": {
+    "title": "Why \"Phoenix\"?",
+    "p1": "The phoenix represents resurrection and rebirth — rising from the ashes, transformed and renewed. That is exactly what I want for every client who walks through my door: to arrive weary, and to leave feeling reborn.",
+    "p2": "That's why I named this place Phoenix."
+  },
+  "servicesPage": {
+    "title": "Services & pricing",
+    "sectionMassage": "Massage",
+    "sectionTreatment": "Treatments",
+    "columnService": "Service",
+    "columnMinutes": "Minutes",
+    "columnPrice": "Price",
+    "fullBody": "Full body",
+    "back": "Back",
+    "feet": "Feet",
+    "acupuncture": "Acupuncture",
+    "hotstone": "Hotstone",
+    "moxa": "Moxibustion / Moxa therapy",
+    "cupping": "Cupping",
+    "pedicure": "Pedicure"
+  },
+  "bookPage": {
+    "title": "Book Now",
+    "callTitle": "Call for an appointment:",
+    "phone": "06 8734 9250",
+    "imageAlt": "Phoenix Health & Wellness lobby"
+  },
+  "contactPage": {
+    "title": "Contact",
+    "openingHoursTitle": "Opening hours",
+    "hours": "11:00 – 22:00",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "locationTitle": "Location",
+    "viewOnMap": "View on Google Maps",
+    "phoneLabel": "Phone",
+    "mapTitle": "Map of Phoenix Health & Wellness"
+  },
+  "reviews": {
+    "title": "Google Reviews",
+    "item0Name": "mika yareck",
+    "item0Date": "3 months ago",
+    "item0Text": "Had a duo massage today. Both massages were wonderful! Knots were tackled well and the massage was well tailored. Really recommend it! Thanks Lina and Omi:)",
+    "item1Name": "Wim van den Bold",
+    "item1Date": "a year ago",
+    "item1Text": "Amazing massage, they really read your body and muscles and then tailor the massage to you. The place isn't new, but it has everything you need.",
+    "item2Name": "Hans Pluim",
+    "item2Date": "a year ago",
+    "item2Text": "Went to Phoenix with severe back pain. They had helped me before with painful muscles in my leg, so I hoped they could help me this time too.",
+    "item3Name": "Ben Evers",
+    "item3Date": "8 months ago",
+    "item3Text": "Phoenix is a really great massage salon! The people are pleasant and give fantastic massages.",
+    "item4Name": "Duncan van der Zalm",
+    "item4Date": "4 years ago",
+    "item4Text": "A little piece of heaven on earth. So much more than just massage.",
+    "item5Name": "Eva Assink",
+    "item5Date": "a year ago",
+    "item5Text": "Incredibly good massages that last a long time! Highly recommended!",
+    "item6Name": "A van",
+    "item6Date": "4 years ago",
+    "item6Text": "Had another wonderful massage today, the best massage salon ever!!",
+    "item7Name": "Amani Vanbercum",
+    "item7Date": "6 years ago",
+    "item7Text": "Best massage ever !!!! Never been massaged so well.",
+    "item8Name": "Anja Van Ouwerkerk",
+    "item8Date": "4 years ago",
+    "item8Text": "Fantastic massage and super kind people.. !!!",
+    "item9Name": "Annemarie Lieste",
+    "item9Date": "3 years ago",
+    "item9Text": "Amazing! They read your body... wonderful.",
+    "item10Name": "jip nipius",
+    "item10Date": "3 years ago",
+    "item10Text": "Thank you Fanny. Super!"
+  },
+  "cta": {
+    "title": "Ready to Feel Renewed?",
+    "subtitle": "Book your session by calling us.",
+    "callButton": "Call 06 8734 9250",
+    "phone": "06 8734 9250"
+  }
+}
