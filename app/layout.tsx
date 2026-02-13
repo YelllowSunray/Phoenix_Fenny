@@ -19,7 +19,7 @@ const trajanPro = localFont({
   display: "swap",
 });
 
-const SITE_URL = "https://phoenix-fenny.vercel.app";
+const SITE_URL = "https://phoenixhilversum.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

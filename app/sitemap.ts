@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 
-const SITE_URL = "https://phoenix-fenny.vercel.app";
+const SITE_URL = "https://phoenixhilversum.com";
 
 const paths = ["", "/services", "/contact", "/book"];
 
