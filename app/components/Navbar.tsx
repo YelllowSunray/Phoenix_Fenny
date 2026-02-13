@@ -48,8 +48,8 @@ export default function Navbar() {
             {navLinks.map((link) => {
               const href = linkHref(link.href);
               const className = link.cta
-                ? "rounded-full bg-[#c1362f] px-6 py-2.5 text-lg font-normal text-white transition-all duration-200 hover:bg-[#a82e28] hover:scale-105 active:scale-100"
-                : "nav-link-underline text-lg font-normal text-[#c1362f] transition-colors hover:text-[#a82e28]";
+                ? "rounded-full bg-[#c1362f] px-6 py-2.5 text-lg font-normal text-white transition-all duration-200 hover:bg-[#a82e28] hover:scale-105 active:scale-100 focus:bg-[#c1362f] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#c1362f] focus-visible:ring-offset-2"
+                : "nav-link-underline rounded px-2 py-1 text-lg font-normal text-[#c1362f] transition-colors hover:text-[#a82e28] hover:bg-transparent bg-transparent focus:bg-transparent focus:outline-none focus-visible:ring-2 focus-visible:ring-[#c1362f] focus-visible:ring-offset-2";
               return (
                 <li key={link.key}>
                   <a href={href} className={className}>
@@ -116,8 +116,8 @@ export default function Navbar() {
             {navLinks.map((link) => {
               const href = linkHref(link.href);
               const className = link.cta
-                ? "inline-block rounded-full bg-[#c1362f] px-6 py-2.5 text-lg font-normal text-white transition-colors hover:bg-[#a82e28]"
-                : "text-lg font-normal text-[#c1362f] transition-colors hover:text-[#a82e28]";
+                ? "inline-block rounded-full bg-[#c1362f] px-6 py-2.5 text-lg font-normal text-white transition-colors hover:bg-[#a82e28] focus:bg-[#c1362f] focus:outline-none"
+                : "block rounded px-2 py-1 text-lg font-normal text-[#c1362f] transition-colors hover:text-[#a82e28] bg-transparent focus:bg-transparent focus:outline-none";
               return (
                 <li key={link.key}>
                   <a

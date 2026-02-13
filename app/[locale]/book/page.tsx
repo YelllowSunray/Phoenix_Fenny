@@ -58,7 +58,7 @@ export default async function BookPage({ params }: Props) {
             <div className="absolute inset-0 bg-black/40" />
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 px-6 text-center">
               <p
-                className="text-xs font-medium uppercase tracking-[0.2em] text-white/95"
+                className="text-sm font-medium uppercase tracking-[0.2em] text-white/95 sm:text-base"
                 style={serif}
               >
                 {t("callTitle")}
