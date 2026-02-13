@@ -36,7 +36,7 @@ export default async function ServicesPage({ params }: Props) {
   const t = await getTranslations("servicesPage");
 
   const tableHead =
-    "text-left text-xs font-medium uppercase tracking-wider text-stone-500";
+    "text-left text-sm font-medium uppercase tracking-wider text-stone-500";
   const serif = { fontFamily: "'Times New Roman', Times, serif" };
 
   return (
@@ -72,7 +72,7 @@ export default async function ServicesPage({ params }: Props) {
               </h2>
               <div className="mt-1 h-px w-10 bg-[#c1362f]" />
               <div className="mt-6">
-                <table className="w-full text-stone-600">
+                <table className="w-full text-base text-stone-600">
                   <thead>
                     <tr className={tableHead}>
                       <th className="pb-3 pr-4" style={serif}>
@@ -86,7 +86,7 @@ export default async function ServicesPage({ params }: Props) {
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="text-sm">
+                  <tbody>
                     {MASSAGE_ROWS.map((row, i) => (
                       <tr
                         key={i}
@@ -95,10 +95,10 @@ export default async function ServicesPage({ params }: Props) {
                         <td className="py-3 pr-4" style={serif}>
                           {row.showName ? t(row.nameKey) : "\u00A0"}
                         </td>
-                        <td className="py-3 text-right text-stone-500">
+                        <td className="py-3 text-right text-stone-500" style={serif}>
                           {row.minutes} min
                         </td>
-                        <td className="py-3 text-right tabular-nums font-medium text-stone-700">
+                        <td className="py-3 text-right tabular-nums font-medium text-stone-600" style={serif}>
                           €{row.price},-
                         </td>
                       </tr>
@@ -118,7 +118,7 @@ export default async function ServicesPage({ params }: Props) {
               </h2>
               <div className="mt-1 h-px w-10 bg-[#c1362f]" />
               <div className="mt-6">
-                <table className="w-full text-stone-600">
+                <table className="w-full text-base text-stone-600">
                   <thead>
                     <tr className={tableHead}>
                       <th className="pb-3 pr-4" style={serif}>
@@ -129,7 +129,7 @@ export default async function ServicesPage({ params }: Props) {
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="text-sm">
+                  <tbody>
                     {TREATMENT_ROWS.map((row, i) => (
                       <tr
                         key={i}
@@ -138,7 +138,7 @@ export default async function ServicesPage({ params }: Props) {
                         <td className="py-3 pr-4" style={serif}>
                           {t(row.nameKey)}
                         </td>
-                        <td className="py-3 text-right tabular-nums font-medium text-stone-700">
+                        <td className="py-3 text-right tabular-nums font-medium text-stone-600" style={serif}>
                           €{row.price},-
                         </td>
                       </tr>
