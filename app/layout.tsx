@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -69,6 +70,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL,
   },
+  // Favicon from app/favicon.ico (file-based). Extra icons via link in head below.
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -78,10 +81,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="nl" suppressHydrationWarning>
+      <head>
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${trajanPro.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
