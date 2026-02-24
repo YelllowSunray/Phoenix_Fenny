@@ -41,7 +41,7 @@ export default async function HomePage({ params }: Props) {
             className="h-full w-full object-cover bg-white"
           >
             <source
-              src="/images/Phoenix Massage_720_compressed.mp4"
+              src="/images/Phoenix Massage Short.mp4"
               type="video/mp4"
             />
           </video>
