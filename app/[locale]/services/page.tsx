@@ -11,19 +11,19 @@ const MASSAGE_ROWS: {
   price: number;
   showName: boolean;
 }[] = [
-  { nameKey: "fullBody", minutes: 60, price: 55, showName: true },
-  { nameKey: "fullBody", minutes: 90, price: 85, showName: false },
-  { nameKey: "back", minutes: 30, price: 40, showName: true },
-  { nameKey: "back", minutes: 45, price: 50, showName: false },
-  { nameKey: "feet", minutes: 30, price: 40, showName: true },
+  { nameKey: "fullBody", minutes: 60, price: 60, showName: true },
+  { nameKey: "fullBody", minutes: 90, price: 90, showName: false },
+  { nameKey: "back", minutes: 30, price: 45, showName: true },
+  { nameKey: "back", minutes: 45, price: 55, showName: false },
+  { nameKey: "feet", minutes: 30, price: 45, showName: true },
 ];
 
 const TREATMENT_ROWS: { nameKey: string; price: number }[] = [
-  { nameKey: "acupuncture", price: 75 },
-  { nameKey: "hotstone", price: 75 },
-  { nameKey: "moxa", price: 75 },
-  { nameKey: "cupping", price: 40 },
-  { nameKey: "pedicure", price: 45 },
+  { nameKey: "acupuncture", price: 80 },
+  { nameKey: "hotstone", price: 80 },
+  { nameKey: "moxa", price: 80 },
+  { nameKey: "cupping", price: 45 },
+  { nameKey: "pedicure", price: 50 },
 ];
 
 export function generateStaticParams() {
