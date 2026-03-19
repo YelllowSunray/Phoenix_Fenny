@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import AnimateHero, { AnimateHeroItem } from "../components/AnimateHero";
@@ -107,14 +108,15 @@ export default async function HomePage({ params }: Props) {
                 </AnimateStaggerItem>
               </AnimateStagger>
             </div>
-            <div className="relative w-full flex-shrink-0 overflow-hidden rounded-lg shadow-lg md:w-[380px] lg:w-[420px]">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+            <div className="relative aspect-[420/560] w-full min-w-0 flex-shrink-0 overflow-hidden rounded-lg shadow-lg md:w-[380px] lg:w-[420px]">
+              <Image
                 src="/images/pictures/massagephoto.jpg"
                 alt="Massage therapy"
-                className="h-auto w-full object-cover"
-                width={420}
-                height={560}
+                fill
+                sizes="(max-width: 768px) 100vw, 420px"
+                className="object-cover"
+                priority
+                decoding="async"
               />
             </div>
           </div>
@@ -149,14 +151,14 @@ export default async function HomePage({ params }: Props) {
       <section className="bg-white px-6 py-24">
         <AnimateSection className="mx-auto max-w-6xl" delay={0.05}>
           <div className="flex flex-col items-center gap-12 md:flex-row md:items-start md:gap-14">
-            <div className="relative order-2 w-full flex-shrink-0 overflow-hidden rounded-lg shadow-lg md:order-1 md:w-[380px] lg:w-[420px]">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+            <div className="relative order-2 aspect-[420/560] w-full min-w-0 flex-shrink-0 overflow-hidden rounded-lg shadow-lg md:order-1 md:w-[380px] lg:w-[420px]">
+              <Image
                 src="/images/pictures/eastern.jpg"
                 alt=""
-                className="h-auto w-full object-cover"
-                width={420}
-                height={560}
+                fill
+                sizes="(max-width: 768px) 100vw, 420px"
+                className="object-cover"
+                decoding="async"
               />
             </div>
             <div className="order-1 flex-1 md:order-2">
@@ -209,14 +211,15 @@ export default async function HomePage({ params }: Props) {
                 </AnimateStaggerItem>
               </AnimateStagger>
             </div>
-            <div className="relative w-full flex-shrink-0 overflow-hidden rounded-lg shadow-lg md:w-[380px] lg:w-[420px]">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+            <div className="relative w-full min-w-0 flex-shrink-0 overflow-hidden rounded-lg shadow-lg md:w-[380px] lg:w-[420px]">
+              <Image
                 src="/images/Phoenix_upscaled.png"
                 alt="Phoenix"
-                className="h-auto w-full object-cover"
-                width={420}
-                height={560}
+                width={884}
+                height={732}
+                sizes="(max-width: 768px) 100vw, 420px"
+                className="h-auto w-full"
+                decoding="async"
               />
             </div>
           </div>
